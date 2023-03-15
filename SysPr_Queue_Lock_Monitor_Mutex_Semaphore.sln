@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lock", "Lock\Lock.csproj", "{D6D7A7CD-E6F4-43BF-A6A9-0F6268360837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lock", "Lock\Lock.csproj", "{D6D7A7CD-E6F4-43BF-A6A9-0F6268360837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Human", "Human\Human.csproj", "{C991C6D6-1C77-4276-B164-D929CC6C95B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Human", "Human\Human.csproj", "{C991C6D6-1C77-4276-B164-D929CC6C95B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{4D5A55EB-CB13-49F3-89E0-DE573F74D1AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitor", "Monitor\Monitor.csproj", "{4D5A55EB-CB13-49F3-89E0-DE573F74D1AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{CB6BC16D-9C2D-434D-B83C-357A0CF32880}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mutex", "Mutex\Mutex.csproj", "{CB6BC16D-9C2D-434D-B83C-357A0CF32880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore", "Semaphore\Semaphore.csproj", "{2E8113A7-CE42-47D7-A910-29E39CF1F1FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semaphore", "Semaphore\Semaphore.csproj", "{2E8113A7-CE42-47D7-A910-29E39CF1F1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laptop", "Laptop\Laptop.csproj", "{1AE3810E-FF16-494D-A546-F62E7F6DF875}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2E8113A7-CE42-47D7-A910-29E39CF1F1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E8113A7-CE42-47D7-A910-29E39CF1F1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E8113A7-CE42-47D7-A910-29E39CF1F1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE3810E-FF16-494D-A546-F62E7F6DF875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE3810E-FF16-494D-A546-F62E7F6DF875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE3810E-FF16-494D-A546-F62E7F6DF875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE3810E-FF16-494D-A546-F62E7F6DF875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
